@@ -10,7 +10,7 @@ from dotenv import load_dotenv
 ''' These are ENVIRONMENT VARIABLES,
 which are stored in a file
 called .env in the same directory as this script.
-You can hardcore these if you aren't familiar with 
+You can hardcode these if you aren't familiar with 
 environment variables. '''
 load_dotenv()
 TOKEN = os.getenv('DISCORD_TOKEN')
